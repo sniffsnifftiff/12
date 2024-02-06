@@ -7,7 +7,6 @@
 #include <dt-bindings/zmk/mouse.h>
 
 
-
 // Home row mods macro
 #define HRML(k1,k2,k3,k4) &ht LSHFT k1  &ht LALT k2  &ht LCTRL k3  &ht LGUI k4
 #define HRMR(k1,k2,k3,k4) &ht RGUI k1  &ht RALT k2  &ht RGUI k3  &ht RSHFT k4
@@ -86,7 +85,7 @@
             >;
         };
 // bluetooth n systems
-        tri_layer {
+        third_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│ RESET    │          │          │          │PROFILE 0 │   │          │          │          │          │  RESET   │
